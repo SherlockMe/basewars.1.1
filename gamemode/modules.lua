@@ -1,10 +1,3 @@
---[[
-
-	BaseWars Module Loader
-	Coded by Ghosty
-
-]]--
-
 local BW = BaseWars
 
 local colorRed 		= Color(255, 0, 0)
@@ -34,6 +27,7 @@ end
 
 local ModuleLoader = {}
 local fileFind = file.Find
+
 local next = next
 
 function ModuleLoader:IterateFiles(folder, realm)
